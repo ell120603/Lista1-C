@@ -22,8 +22,5 @@ if(esquerda>=direita) return;
 wchar_t temp = str[esquerda];
 str[esquerda] = str[direita];
 str[direita] = temp;
-
 inverterString(str,esquerda + 1,direita -1);
-
-
 }
